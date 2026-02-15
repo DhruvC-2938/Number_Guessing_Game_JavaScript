@@ -26,8 +26,11 @@ You can run this project locally or deploy it using **GitHub Pages**.
 ## 📂 Project Structure
 
 📁 Number-Guessing-Game
+
 ┣ 📄 index.html → Game layout
+
 ┣ 📄 style.css → Styling and UI design
+
 ┣ 📄 script.js → Game logic
 
 
