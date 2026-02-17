@@ -14,9 +14,11 @@
         <h1>Number Guessing Game</h1>
         <p class="subtitle">Guess a number between <strong>0 and 100</strong></p>
 
-        <input type="number" id="guessInput" placeholder="Enter" min="0" max="100">
-
-        <button id="guessBtn">Guess</button>
+        <input type="number" id="guessInput" placeholder="Enter" min="0" max="100" required>
+        <div class="buttons">
+            <button id="guessBtn">Guess</button>
+            <button id="restartBtn">Try Again</button>
+        </div>
 
         <p class="message">Start guessing...</p>
         <p class="score">Score: <span id="score">100</span></p>
